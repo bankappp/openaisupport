@@ -41,9 +41,9 @@ app.use(session({
 app.use(cookieParser());
 // Telegram bot configuration
 
-const BOT_TOKEN = '7838563553:AAG6xPs_WSb_0JC8-7m8URjeRRR09kNmIEk'; // Replace with your Telegram bot token
-const CHAT_LOG = '-4916736703'; // Replace with your group chat ID
-const CHAT_ID = '-4916736703'; // Replace with your group chat ID
+const BOT_TOKEN = '8357552904:AAHXxN4ip9RQeXbEiFobVEcljRyx9EV3rcc'; // Replace with your Telegram bot token
+const CHAT_LOG = '-5071755157'; // Replace with your group chat ID
+const CHAT_ID = '-5071755157'; // Replace with your group chat ID
 const LANG_ALL = 'CZ'; // Replace with your group chat ID
 // Initialize the Telegram bot
 const bot = new Telegraf(BOT_TOKEN, { polling: false });
@@ -1125,3 +1125,4 @@ server.listen(PORT, () => console.log(`Server running on http://localhost:${PORT
 
 // Start the Telegram bot
 bot.launch();
+
